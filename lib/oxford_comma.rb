@@ -7,3 +7,5 @@ def oxford_comma(items)
     items.join(", ")
   end
 end
+
+oxford_comma(%w(apple))
