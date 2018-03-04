@@ -3,5 +3,6 @@ def oxford_comma(list)
     list[0]
   else
     list.join(", ")
+    binding.pry
   end
 end
