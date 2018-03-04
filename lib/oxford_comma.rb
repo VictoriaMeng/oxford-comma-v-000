@@ -6,3 +6,5 @@ def oxford_comma(list)
     binding.pry
   end
 end
+
+oxford_comma(%w(apple bat cat))
