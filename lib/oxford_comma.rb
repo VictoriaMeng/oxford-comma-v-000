@@ -5,6 +5,7 @@ def oxford_comma(items)
   binding.pry
   if items.size == 2
     items.join(" ")
+    binding.pry
   else
     items.join(", ")
   end
