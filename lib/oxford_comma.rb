@@ -8,4 +8,3 @@ def oxford_comma(items)
     items.join(", ")
   end
 end
-
