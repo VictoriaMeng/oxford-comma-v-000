@@ -1,3 +1,5 @@
+require 'pry'
+
 def oxford_comma(items)
   items[-1] = "and #{items[-1]}" if items.size >= 2
   binding.pry
