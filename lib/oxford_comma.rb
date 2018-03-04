@@ -1,10 +1,3 @@
-def oxford_comma(list)
-  if list.size == 1
-    list[0]
-  else
-    string = list.join(", ")
-    binding.pry
-  end
-end
+items = %w(apple bat cat)
 
-oxford_comma(%w(apple bat cat))
+items.join(", ")
